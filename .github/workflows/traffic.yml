@@ -18,7 +18,7 @@ jobs:
           sleep $((RANDOM_DELAY * 60))
 
           # لیست آدرس‌های خود را اینجا وارد کنید (بین هر آدرس یک فاصله بگذارید)
-          URLS=("https://blogger-red-omega.vercel.app" "https://your-site-2.vercel.app")
+          URLS=("https://blogger-weld.vercel.app" "https://your-site-2.vercel.app")
 
           for url in "${URLS[@]}"; do
             echo "Visiting $url ..."
