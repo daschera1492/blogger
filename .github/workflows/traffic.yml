@@ -30,7 +30,7 @@ jobs:
       - name: Random Website Browsing
         run: |
           # لیست سایت‌ها
-          URLS=("https://maser-eight.vercel.app/")
+          URLS=("https://maser-eight.vercel.app/" "https://molania.vercel.app/")
           
           # بهم ریختن ترتیب لیست (Shuffle)
           SHUFFLED_URLS=$(shuf -e "${URLS[@]}")
